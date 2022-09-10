@@ -1,7 +1,7 @@
 package com.programs.twosum;
 
 import org.junit.Test;
-import static org.junit.Assert.assertEquals;
+import org.junit.Assert;
 import com.programs.twosum.hashset.TwoSum1;
 import com.programs.twosum.hashmap.TwoSum2;
 
@@ -14,7 +14,7 @@ public class TwoSumTest {
     public void testTwoSum1(){
     
         int[] result = obj1.twoSum(new int[]{3, 2, 7, 1}, 9);
-        assertArrayEquals(result, new int[]{7, 2});
+        Assert.assertArrayEquals(result, new int[]{7, 2});
     }
     
     @Test
@@ -22,6 +22,6 @@ public class TwoSumTest {
     
         int[] result = obj2.twoSum(new int[]{3, 2, 7, 1}, 9);
         
-        assertArrayEquals(result, new int[]{1, 2});
+        Assert.assertArrayEquals(result, new int[]{1, 2});
     }
 }
