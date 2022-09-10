@@ -2,7 +2,7 @@ package com.programs.twosum.hashset;
 
 import java.util.*;
 
-class TwoSum1 {
+public class TwoSum1 {
   // time complexity O(n) | space complexity O(n)
   public static int[] twoSum(int[] numbers, int targetSum) {
       int[] result = null;

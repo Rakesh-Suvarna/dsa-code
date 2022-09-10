@@ -2,7 +2,7 @@ package com.programs.twosum.hashmap;
 
 import java.util.*;
 
-class TwoSum2 {
+public class TwoSum2 {
 
     public static int[] twoSum(int[] nums, final int target){
     
