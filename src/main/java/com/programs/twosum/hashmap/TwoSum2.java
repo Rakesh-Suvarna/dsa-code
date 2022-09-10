@@ -17,7 +17,7 @@ public class TwoSum2 {
                 result[1]=i;
             }else{
             
-                map.put(rem, i);
+                map.put(nums[i], i);
             }
         }
         return result;
