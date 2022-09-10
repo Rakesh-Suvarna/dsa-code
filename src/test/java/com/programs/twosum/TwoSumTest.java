@@ -2,8 +2,8 @@ package main.test.com.programs.twosum;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
-import main.java.com.programs.twosum.hashset.TwoSum1;
-import main.java.com.programs.twosum.hashmap.TwoSum2;
+import main.java.com.programs.twosum.hashset.*;
+import main.java.com.programs.twosum.hashmap.*;
 
 public class TwoSumTest {
 
