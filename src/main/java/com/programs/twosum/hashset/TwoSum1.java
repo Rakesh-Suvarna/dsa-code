@@ -1,4 +1,4 @@
-package main.com.programs.twosum.hashset;
+package com.programs.twosum.hashset;
 
 import java.util.*;
 

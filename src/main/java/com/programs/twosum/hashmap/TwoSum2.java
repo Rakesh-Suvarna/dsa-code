@@ -1,4 +1,4 @@
-package main.com.programs.twosum.hashmap;
+package com.programs.twosum.hashmap;
 
 import java.util.*;
 
