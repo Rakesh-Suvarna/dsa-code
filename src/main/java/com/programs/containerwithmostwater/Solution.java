@@ -2,7 +2,7 @@ package com.programs.containerwithmostwater;
 
 import java.util.*;
 
-class Solution {
+public class Solution {
     public int maxArea(int[] height) {
         
         int fp=0;
