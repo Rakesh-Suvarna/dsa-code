@@ -16,8 +16,8 @@ public class ThreeSumTest{
         
         int[][] array = new int[result.size()][];
         int[] blankArray = new int[0];
-        for(int i=0; i < results.size(); i++) {
-            array[i] = results.get(i).toArray(blankArray);
+        for(int i=0; i < result.size(); i++) {
+            array[i] = result.get(i).toArray(blankArray);
         }
         Assert.assertArrayEquals(array, expectedOutput);
     }
