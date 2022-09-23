@@ -1,4 +1,4 @@
-package com.programs.3Sum;
+package com.programs.threesum;
 
 import org.junit.Test;
 import org.junit.Assert;
