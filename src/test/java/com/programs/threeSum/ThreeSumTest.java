@@ -3,7 +3,7 @@ package com.programs.threesum;
 import org.junit.Test;
 import org.junit.Assert;
 
-public class 3SumTest{
+public class ThreeSumTest{
 
     @Test
     public void test3Sum(){
