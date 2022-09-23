@@ -2,6 +2,7 @@ package com.programs.threesum;
 
 import org.junit.Test;
 import org.junit.Assert;
+import java.util.*;
 
 public class ThreeSumTest{
 
