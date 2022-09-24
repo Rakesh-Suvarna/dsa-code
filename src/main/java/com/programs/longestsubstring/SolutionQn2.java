@@ -2,7 +2,7 @@ package com.programs.longestsubstring;
 
 import java.util.*;
 
-public class Solution{
+public class SolutionQn2{
 
     public int lengthOfLongestSubstringTwoDistinct(String s) {
 
