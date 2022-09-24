@@ -46,9 +46,9 @@ public class AllTest{
     @Test
     public void lengthOfLongestSubstringKDistinct(){
 
-        Assert.assertEquals(new com.programs.longestsubstring.SolutionQn2().lengthOfLongestSubstringKDistinct("eceba", 3)
+        Assert.assertEquals(new com.programs.longestsubstring.SolutionQn3().lengthOfLongestSubstringKDistinct("eceba", 3)
         , 4);
-        Assert.assertEquals(new com.programs.longestsubstring.SolutionQn2().lengthOfLongestSubstringKDistinct("WORLD", 4)
+        Assert.assertEquals(new com.programs.longestsubstring.SolutionQn3().lengthOfLongestSubstringKDistinct("WORLD", 4)
         , 4);
     }
 }
