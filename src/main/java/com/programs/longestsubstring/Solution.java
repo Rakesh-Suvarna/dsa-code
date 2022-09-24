@@ -13,7 +13,7 @@ public class Solution{
         while(end < s.length()){
 
             Character ch = s.charAt(end);
-            if(set.contains(ch)){
+            if(!set.contains(ch)){
 
                 set.add(ch);
                 result = Math.max(result, set.size());
