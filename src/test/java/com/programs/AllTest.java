@@ -37,16 +37,16 @@ public class AllTest{
 
     @Test
     public void lengthOfLongestSubstringTwoDistinct(){
-        Assert.assertEquals(new com.programs.longestsubstring.SolutionQn2().lengthOfLongestSubstringTwoDistinct(“eceba”)
+        Assert.assertEquals(new com.programs.longestsubstring.SolutionQn2().lengthOfLongestSubstringTwoDistinct("eceba")
         , 3);
-        Assert.assertEquals(new com.programs.longestsubstring.SolutionQn2().lengthOfLongestSubstringTwoDistinct(“aaa”)
+        Assert.assertEquals(new com.programs.longestsubstring.SolutionQn2().lengthOfLongestSubstringTwoDistinct("aaa")
         , 3);
     }
 
     @Test
     public void lengthOfLongestSubstringKDistinct(){
 
-        Assert.assertEquals(new com.programs.longestsubstring.SolutionQn2().lengthOfLongestSubstringKDistinct(“eceba”, 3)
+        Assert.assertEquals(new com.programs.longestsubstring.SolutionQn2().lengthOfLongestSubstringKDistinct("eceba", 3)
         , 4);
         Assert.assertEquals(new com.programs.longestsubstring.SolutionQn2().lengthOfLongestSubstringKDistinct("WORLD", 4)
         , 4);
