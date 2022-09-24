@@ -22,6 +22,7 @@ public class SolutionQn2{
                 }else{
                     window.put(chAtFrstIdx, --val);
                 }
+                firstIdx++;
             }
             result = Math.max(result, i - firstIdx + 1);
         }
