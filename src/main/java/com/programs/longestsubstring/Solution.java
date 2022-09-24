@@ -1,5 +1,7 @@
 package com.programs.longestsubstring;
 
+import java.util.*;
+
 public class Solution{
 
     public int lengthOfLongestSubstring(String s) {
