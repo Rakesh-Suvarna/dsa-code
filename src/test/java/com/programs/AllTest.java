@@ -34,4 +34,21 @@ public class AllTest{
         Assert.assertEquals(new com.programs.longestsubstring.Solution().lengthOfLongestSubstring("pwwkew")
         , 3);
     }
+
+    @Test
+    public void lengthOfLongestSubstringTwoDistinct(){
+        Assert.assertEquals(new com.programs.longestsubstring.SolutionQn2().lengthOfLongestSubstringTwoDistinct(“eceba”)
+        , 3);
+        Assert.assertEquals(new com.programs.longestsubstring.SolutionQn2().lengthOfLongestSubstringTwoDistinct(“aaa”)
+        , 3);
+    }
+
+    @Test
+    public void lengthOfLongestSubstringKDistinct(){
+
+        Assert.assertEquals(new com.programs.longestsubstring.SolutionQn2().lengthOfLongestSubstringKDistinct(“eceba”, 3)
+        , 4);
+        Assert.assertEquals(new com.programs.longestsubstring.SolutionQn2().lengthOfLongestSubstringKDistinct("WORLD", 4)
+        , 4);
+    }
 }
