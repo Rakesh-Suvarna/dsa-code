@@ -60,4 +60,13 @@ public class AllTest{
         Assert.assertArrayEquals(new com.programs.longestsubstring.SolutionQn4().maxSlidingWindow(new int[]{1,2,3,1,2,3}, 5)
         , new int[]{3,3});
     }
+
+    @Test
+    public void maxSlidingWindow(){
+
+        Assert.assertArrayEquals(new com.programs.minCostConnectRopes.SolutionQn().minCost(new int[]{8, 4, 6, 12})
+        , 58);
+        Assert.assertArrayEquals(new com.programs.minCostConnectRopes.SolutionQn().minCost(new int[]{20, 4, 8, 2})
+        , 54);
+    }
 }
