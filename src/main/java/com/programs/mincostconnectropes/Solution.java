@@ -1,4 +1,4 @@
-package com.programs.threesum;
+package com.programs.mincostconnectropes;
 
 import java.util.*;
 

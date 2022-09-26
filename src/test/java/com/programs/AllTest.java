@@ -64,9 +64,9 @@ public class AllTest{
     @Test
     public void maxSlidingWindow(){
 
-        Assert.assertArrayEquals(new com.programs.minCostConnectRopes.SolutionQn().minCost(new int[]{8, 4, 6, 12})
+        Assert.assertArrayEquals(new com.programs.minCostConnectRopes.Solution().minCost(new int[]{8, 4, 6, 12})
         , 58);
-        Assert.assertArrayEquals(new com.programs.minCostConnectRopes.SolutionQn().minCost(new int[]{20, 4, 8, 2})
+        Assert.assertArrayEquals(new com.programs.minCostConnectRopes.Solution().minCost(new int[]{20, 4, 8, 2})
         , 54);
     }
 }
