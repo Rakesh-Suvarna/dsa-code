@@ -8,7 +8,7 @@ public class KthLargest {
     int k;
     public KthLargest(int k, int[] nums) {
         pq = new PriorityQueue<Integer>();
-        k = k;
+        this.k = k;
         for(int i=0;i<nums.length;i++){
             add(nums[i]);
         }
