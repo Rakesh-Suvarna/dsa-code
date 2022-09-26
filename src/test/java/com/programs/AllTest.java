@@ -64,9 +64,9 @@ public class AllTest{
     @Test
     public void minCost(){
 
-        Assert.assertArrayEquals(new com.programs.mincostconnectropes.Solution().minCost(new int[]{8, 4, 6, 12})
+        Assert.assertEquals(new com.programs.mincostconnectropes.Solution().minCost(new int[]{8, 4, 6, 12})
         , 58);
-        Assert.assertArrayEquals(new com.programs.mincostconnectropes.Solution().minCost(new int[]{20, 4, 8, 2})
+        Assert.assertEquals(new com.programs.mincostconnectropes.Solution().minCost(new int[]{20, 4, 8, 2})
         , 54);
     }
 }
