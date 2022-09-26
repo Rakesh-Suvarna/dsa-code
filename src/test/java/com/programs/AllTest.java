@@ -69,4 +69,17 @@ public class AllTest{
         Assert.assertEquals(new com.programs.mincostconnectropes.Solution().minCost(new int[]{20, 4, 8, 2})
         , 54);
     }
+
+    @Test
+    public void KthLargest(){
+        com.programs.kthlargestinastream.KthLargest obj = new com.programs.kthlargestinastream.KthLargest(3, new int[]{4, 5, 8, 2});
+        Assert.assertEquals(obj.add(3)
+        , 4);
+        Assert.assertEquals(obj.add(5)
+        , 5);
+        Assert.assertEquals(obj.add(10)
+        , 5);
+        Assert.assertEquals(obj.add(9)
+        , 8);
+    }
 }
