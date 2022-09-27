@@ -7,7 +7,7 @@ public class ReorderDatalogs {
     public String[] reorderLogFiles(String[] logs) {
         
         Comparator<String> comp = new Comparator<String>(){
-            @Overide
+            @Override
             public int compare(String s1, String s2){
 
                 int s1FirstIndex = s1.indexOf(" ");
