@@ -23,9 +23,9 @@ public class ReorderDatalogs {
                     return -1;
                 }
                 //string comparision
-                int preCompute = s1.substring(s1FirstIndex+1).compare(s2.substring(s2FirstIndex+1));//The letter-logs are sorted lexicographically by their contents.
+                int preCompute = s1.substring(s1FirstIndex+1).compareTo(s2.substring(s2FirstIndex+1));//The letter-logs are sorted lexicographically by their contents.
                 if(preCompute ==0) {//If their contents are the same, then sort them lexicographically by their identifiers. 
-                    return s1.substring(0, s1FirstIndex).compare(s2.substring(0, s2FirstIndex));
+                    return s1.substring(0, s1FirstIndex).compareTo(s2.substring(0, s2FirstIndex));
                 }
                 return preCompute;
             }
