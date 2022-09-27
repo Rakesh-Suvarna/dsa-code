@@ -19,7 +19,7 @@ public class ReorderDatalogs {
                         return 1;
                     }
                 }
-                if(s2.charAt(s2FirstIndex+1) <= 9){
+                if(s2.charAt(s2FirstIndex+1) <= '9'){
                     return -1;
                 }
                 //string comparision
