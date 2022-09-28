@@ -106,9 +106,9 @@ public class AllTest{
     @Test
     public void numIslands(){
 
-        Assert.assertEquals(new com.programs.noofislands.Solution().numIslands(new char[][]{{"1","1","1","1","0"},{"1","1","0","1","0"},{"1","1","0","0","0"},{"0","0","0","0","0"}})
+        Assert.assertEquals(new com.programs.noofislands.Solution().numIslands(new char[][]{{'1','1','1','1','0'},{'1','1','0','1','0'},{'1','1','0','0','0'},{'0','0','0','0','0'}})
         , 1);
-        Assert.assertEquals(new com.programs.noofislands.Solution().numIslands(new char[][]{{"1","1","0","0","0"},{"1","1","0","0","0"},{"0","0","1","0","0"},{"0","0","0","1","1"}})
+        Assert.assertEquals(new com.programs.noofislands.Solution().numIslands(new char[][]{{'1','1','0','0','0'},{'1','1','0','0','0'},{'0','0','1','0','0'},{'0','0','0','1','1'}})
         , 3);
     }
 }
