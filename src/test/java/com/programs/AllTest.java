@@ -102,4 +102,13 @@ public class AllTest{
             , new String[]{"g1 act car","a8 act zoo","ab1 off key dog","a1 9 2 3 1","zo4 4 7"}
         );
     }
+
+    @Test
+    public void numIslands(){
+
+        Assert.assertEquals(new com.programs.noofislands.Solution().numIslands(new char[][]{{"1","1","1","1","0"},{"1","1","0","1","0"},{"1","1","0","0","0"},{"0","0","0","0","0"}})
+        , 1);
+        Assert.assertEquals(new com.programs.noofislands.Solution().numIslands(new char[][]{{"1","1","0","0","0"},{"1","1","0","0","0"},{"0","0","1","0","0"},{"0","0","0","1","1"}})
+        , 3);
+    }
 }
